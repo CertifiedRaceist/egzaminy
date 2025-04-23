@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Efekty obrazu</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header>
+        <h2>Efekty na obrazach</h2>
+    </header>
+    <aside>
+        <section id="pszczola">
+            <img src="pszczola.jpg" alt="pszczoła na fioletowym kwiatku" id="bydle"> <br>
+            <form>
+                <input type="radio" name="radioo" id="blur">Blur <br>
+                <input type="radio" name="radioo" id="sepia">Sepia <br>
+                <input type="radio" name="radioo" id="negatyw">Negatyw <br>
+            </form>
+                <button onclick="Pszczola()">Zastosuj</button>
+        </section>
+
+        <section>
+            <img src="owoce.jpg" alt="Kosz pełen owoców" id="owoce">
+            <br>
+            <input type="range" min="0" max="100" value="100" id="suwak_1">
+            <br>
+            <button onclick="owoce()">Zastosuj</button>
+        </section>
+    </aside>
+
+    <aside>
+        <section>
+            <img src="pomarancza.jpg" alt="drzewo pomarańczy" id="pomarancze">
+            <br>
+            <button id="kolor" onclick="kolor_Pomarancze()">Kolorowy</button> &nbsp; <button id="czarnobialy" onclick="czarnobiale_Pomarancze()">Czarno-biały</button>
+        </section>
+        <section>
+            <img src="zolw.jpg" alt="Żółw w wodzie" id="zolw"> <br>
+            <input type="range" min="0" max="250" id="suwak_2">
+            <br>
+            <button onclick="zolw()">Zastosuj</button>
+        </section>
+    </aside>
+    <footer>
+        <p><a href="http://css.com/" target="_blank">Zobacz inne efekty obrazu</a></p>
+        <br>
+        <p>Strone wykonał Cyprian Łatka</p>
+    </footer>
+</body>
+</html>
