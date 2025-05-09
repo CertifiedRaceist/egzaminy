@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Kosmetyczny</title>
+    <link rel="stylesheet" href="styl7.css">
+    <script src="skrypt.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div  id="l">
+            <aside id="l1">
+                <h1>Nasza oferta</h1>
+                <ol>
+                    <li>
+                        <a href="twarz.html">Oczyszczanie Twarzy</a>
+                        <ul>
+                            <li>
+                                Peeling
+                            </li>
+                            <li>
+                                Maska
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Masaż
+                    </li>
+                    <li>
+                        Makijaż
+                    </li>
+                </ol>
+    
+                <a href="index.html">Strona główna</a>
+            </aside>
+            <aside id="l2">
+                <img src="obraz1.jpg" alt="Personel">
+            </aside>
+        </div>
+    
+        <div id="r">
+            <aside id="r1">
+                <h1>Usługi kosmetyczne</h1>
+            </aside>
+            <aside id="r2">
+                <h3>Kalkulator ceny wizyty</h3>
+                <label><input id="peeling" type="checkbox" name="peeling" value="45"> Peeling</label><br>
+                <label><input id="maska" type="checkbox" name="maska" value="30"> Maska</label><br>
+                <label><input id="masaz" type="checkbox" name="masaz" value="20"> Masaż twarzy</label><br>
+                <label><input id="makijaz" type="checkbox" name="makijaz" value="50"> Makijaż</label><br>
+                <button onclick="funkcja()">oblicz cenę</button>
+                <p id="p"></p>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <h1>Autor: Cyprian Łatka</h1>
+    </footer>
+
+
+
+</body>
+</html>
